@@ -1,0 +1,116 @@
+body {
+    display:grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+
+.insta{
+    height: 20px;
+    width: 20px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+    color: rgb(12, 2, 2);
+    background-color: rgba(253, 236, 5, 0.801);
+    clear: left;
+    text-align: center;
+}
+
+
+/*footer{
+	width: 100%;
+	height: auto;
+	font-size: 75%;
+	padding: 0.625em 0.9em 1.4em;
+	background-color:rgb(210, 210, 190);
+	text-align: center;
+	min-height: 1px;
+	float: right;
+}*/
+
+ul {
+    list-style-type: none;/*desactiva viñetas*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*Especifica qué sucede si el contenido
+    del cuadro de un elemento se desborda */
+    background-color: rgba(236, 236, 46, 0.827);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+    background-color: #e7cb15ad;
+    color:#333;
+}
+
+li a:active { /*Cuando da click en el mouse */
+    background-color:#e7cb15ad;
+    font-size: 120%;
+}
+
+li:last-child{
+float: right;
+background-color: rgba(106, 116, 116, 0.69);
+color:white;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/*@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}*/
+
+@media screen and (max-width: 800px){
+	header {
+		height: auto;
+	}
+	nav {
+		float: none;
+		width: auto;
+	}
+	section {
+		float: left;
+		width: auto;
+	}
+
+	aside {
+		float: rigth;
+		width: auto;
+	}
+
+}
