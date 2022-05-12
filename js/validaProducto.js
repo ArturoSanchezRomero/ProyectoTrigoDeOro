@@ -34,9 +34,6 @@ function validaDatos(){
             alert("La fecha de caducidad debe ser mayor a la fecha de compra");
             document.formulario.fecha_compra.focus();
            verificar = false;
-        }else{
-            verificar = true;
-            
         }
     }
 
