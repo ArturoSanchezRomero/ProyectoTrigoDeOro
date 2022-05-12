@@ -1,0 +1,63 @@
+#tipo{
+    background-color:rgba(253, 236, 5, 0.801);
+    text-align:center;
+}
+#id{
+    background-color:rgba(253, 236, 5, 0.801);
+    text-align:center;
+}
+
+#dato{
+    background-color:rgb(250, 244, 244);
+    text-align:center;
+}
+
+.mb input{
+    margin: 5px;
+    width: 70%;
+    padding: 8px 10px;
+    margin-left: 15%;
+
+}
+
+.mb .bt{
+    margin: 5px;
+    width: 50%;
+    padding: 8px 10px;
+}
+
+.bt{
+    margin: 5px;
+    width: 50%;
+    padding: 8px 10px;
+}
+
+#section{
+    background-color:#E2BE99; 
+}
+
+.bton {
+    background-color: #959995;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid rgb(0, 0, 0);
+    color: aliceblue;
+    font-weight: bold;
+    height: 28px;
+    margin-bottom: 8px;
+
+}
+
+.opt{
+    width: 100%;
+    padding: 5px 10px;
+    margin-left: 0%;
+    height: 28px;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: #959995;
+    color: aliceblue;
+    font-weight: bold;
+}
